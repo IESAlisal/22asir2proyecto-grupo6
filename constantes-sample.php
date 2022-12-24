@@ -1,3 +1,4 @@
+<?php
 $servername = "localhost";
 $database = "libros2";
 $username = "usuario";
