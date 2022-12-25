@@ -1,5 +1,5 @@
 <?php
-    include '../constantes.php';
+    include_once '../constantes.php';
 
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $database);
