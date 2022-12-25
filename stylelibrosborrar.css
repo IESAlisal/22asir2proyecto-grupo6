@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@700&family=Ubuntu:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body .wrapper{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 14px;
+    background-image: url(background4.svg);
+    background-size: cover;
+    font-family: "Raleway";
+    color: black;
+    animation: rotate 6s infinite alternate linear;
+}
+
+.borrado{
+    color: #001122;
+    background-color: #FF0066;
+    position: relative;
+    z-index: 3;
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin: auto;
+    border-radius: 0.7rem;
+    text-align: center;
+    align-items: center;
+    border: solid;
+}
+
+.borrado > echo{
+	text-align: center;
+	margin-left: 40%;
+}
+
+.borrado > button{
+    padding: auto;
+    margin: 10px 10px 10px;
+    width: 40%;
+    position: relative;
+    z-index: 3;
+    transition: all 0.25s;
+}
+
+.borrado > button:hover{
+    background-color: #FF0066;
+    color: white;
+}
+
+.borrado > echo {
+    margin: 0 0 20;
+    padding: auto;
+    color: black;
+}
+
+button{
+    position: relative;
+    transition: all 0.25s;
+    background-color: white;
+    border-radius: 1.25rem;
+    width: 20%;
+    margin-top: 25%;
+    margint-bottom: 30%;
+    padding: 10px 10px 10px;
+    border: 0;
+    align-items: center;
+    font-family: "Raleway";
+}
+
+button:hover{
+    background-color: #FF0066;
+    letter-spacing: 0.7px;
+}
+
+a{
+    color: #001122;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-bottom: 6px;
+    font-family: "Raleway";
+}
+
+a:hover {
+    color: white;
+}
+
+@keyframes rotate{
+    100%{
+        background-position: 20% 20%;
+    }
+}
+
+@media (width >= 500px){
+    body{
+        padding: 0;
+    }
+
+    .login-card{
+        margin: 0;
+        width: 400px;
+    }
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@700&family=Ubuntu:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body .wrapper{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 14px;
+    background-image: url(background8.svg);
+    background-size: cover;
+    font-family: "Raleway";
+    color: black;
+    animation: rotate 6s infinite alternate linear;
+}
+
+.guardado{
+    color: #001122;
+    background-color: #009473;
+    position: relative;
+    z-index: 3;
+    width: 90%;
+    padding-top: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 10px;
+    margin: auto;
+    border-radius: 0.7rem;
+    text-align: center;
+    align-items: center;
+    border: solid;
+}
+
+.guardado > button{
+    padding: auto;
+    margin: 0 0 20;
+    position: relative;
+    z-index: 3;
+    width: 50%;
+    transition: all 0.25s;
+}
+
+.guardado > button:hover{
+    background-color: #009473;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.guardado > .aviso {
+    margin: 0 0 20;
+    padding: auto;
+    color: white;
+}
+
+button{
+    transition: all 0.25s;
+    background-color: white;
+    border-radius: 1.25rem;
+    width: 15%;
+    padding: 10px 10px 10px;
+    margin-top: 30%;
+    border: 0;
+    font-family: "Raleway";
+}
+
+button:hover{
+    background-color: #009473;
+    letter-spacing: 0.7px;
+}
+
+a{
+    color: #001122;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-bottom: 6px;
+    font-family: "Raleway";
+}
+
+a:hover {
+    color: white;
+}
+
+@keyframes rotate{
+    100%{
+        background-position: 20% 20%;
+    }
+}
+
+@media (width >= 500px){
+    body{
+        padding: 0;
+    }
+
+    .login-card{
+        margin: 0;
+        width: 400px;
+    }
+}

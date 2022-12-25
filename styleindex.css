@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@700&family=Ubuntu:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body .wrapper{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url(background5.svg);
+    background-size: cover;
+    font-family: "Raleway";
+    color: black;
+    animation: rotate 7s infinite alternate linear;
+}
+
+ul{
+    text-align: center;
+    text-decoration: none;
+}
+
+ul > button > a {
+    text-decoration: none;
+    transition: all 0.15s;
+    color: #001220;
+    width: 100%;
+    padding: 0 15px;
+}
+
+ul > button{
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    padding: 20 50px;
+    border-radius: 1ch;
+    color: #001220;
+    border:solid white ;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    transition: all 0.15s;
+}
+
+ul > button:hover {
+    background-color: #009473;
+}
+
+ul > button > a:hover {
+    color: black;
+    letter-spacing: 0.1px;
+}
+
+
+h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    transition: all 0.29s;
+    color: white;
+    text-align: center;
+}
+
+input{
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 10px 10px;
+    margin-left: 7%;
+    border-radius: 3ch;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.25s;
+    background-color: #009473;
+}
+
+input:hover{
+    background-color: #001220;
+}
+
+
+@keyframes rotate{
+    100%{
+        background-position: 30% 30%;
+    }
+}
+
+@media (width >= 500px){
+    body{
+        padding: 0;
+    }
+
+    .login-card{
+        margin: 0;
+        width: 400px;
+    }
+}
