@@ -41,7 +41,7 @@ if (isset($_POST['registrar']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTRO GRUPO-5</title>
 
-    <link rel="stylesheet" href="stylereg.css">
+    <link rel="stylesheet" href="css/stylereg.css">
 
   </head>
 

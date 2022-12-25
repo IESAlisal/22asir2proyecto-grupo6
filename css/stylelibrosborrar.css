@@ -13,22 +13,22 @@ body{
     place-items: center;
     margin: 0;
     padding: 14px;
-    background-image: url(background8.svg);
+    background-image: url(img/background4.svg);
     background-size: cover;
     font-family: "Raleway";
     color: black;
     animation: rotate 6s infinite alternate linear;
 }
 
-.guardado{
+.borrado{
     color: #001122;
-    background-color: #009473;
+    background-color: #FF0066;
     position: relative;
     z-index: 3;
     width: 90%;
     padding-top: 10px;
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 10px;
     margin: auto;
     border-radius: 0.7rem;
@@ -37,40 +37,47 @@ body{
     border: solid;
 }
 
-.guardado > button{
+.borrado > echo{
+	text-align: center;
+	margin-left: 40%;
+}
+
+.borrado > button{
     padding: auto;
-    margin: 0 0 20;
+    margin: 10px 10px 10px;
+    width: 40%;
     position: relative;
     z-index: 3;
-    width: 50%;
     transition: all 0.25s;
 }
 
-.guardado > button:hover{
-    background-color: #009473;
+.borrado > button:hover{
+    background-color: #FF0066;
     color: white;
-    letter-spacing: 0.5px;
 }
 
-.guardado > .aviso {
+.borrado > echo {
     margin: 0 0 20;
     padding: auto;
-    color: white;
+    color: black;
 }
 
 button{
+    position: relative;
     transition: all 0.25s;
     background-color: white;
     border-radius: 1.25rem;
-    width: 15%;
+    width: 20%;
+    margin-top: 25%;
+    margint-bottom: 30%;
     padding: 10px 10px 10px;
-    margin-top: 30%;
     border: 0;
+    align-items: center;
     font-family: "Raleway";
 }
 
 button:hover{
-    background-color: #009473;
+    background-color: #FF0066;
     letter-spacing: 0.7px;
 }
 

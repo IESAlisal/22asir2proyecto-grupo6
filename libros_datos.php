@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Guardar libros</title>
-	<link rel="stylesheet" media="screen" href="stylelibrosdatos.css" >
+	<link rel="stylesheet" media="screen" href="css/stylelibrosdatos.css" >
 </head>
 <body>
 <div class="tabla2">

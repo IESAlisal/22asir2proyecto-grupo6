@@ -15,7 +15,7 @@ if(isset($_POST['borrar']))
 <html>
 <head>
 <title>Borrar libros</title>
-<link rel="stylesheet" media="screen" href="stylelibrosborrar.css" >
+<link rel="stylesheet" media="screen" href="css/stylelibrosborrar.css" >
 </head>
 <body>
 <form class="formulario" action="" method="post" name="formulario">

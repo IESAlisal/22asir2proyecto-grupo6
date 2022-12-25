@@ -22,7 +22,7 @@
   body {
     font-family: 'Raleway';
     color: #1a1a1a;
-    background-image: url(background6.svg);
+    background-image: url(img/background6.svg);
     animation: rotate 6s infinite alternate linear;
     background-size: cover;
    }
@@ -220,7 +220,7 @@
       left: 0;
       height: 200%;
       width: 200%;
-      background-image: url(IMG_5204.JPG);
+      background-image: url(img/IMG_5204.JPG);
       background-size: 100%;
       border-radius: 50%;
       -ms-transform: translateX(-50%) translateY(-25%);

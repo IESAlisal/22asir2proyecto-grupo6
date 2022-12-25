@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Ejercicio 8</title>
-	<link rel="stylesheet" media="screen" href="stylelibrosactualizar.css" >
+	<link rel="stylesheet" media="screen" href="css/stylelibrosactualizar.css" >
 </head>
 <body>
 <div class="act">

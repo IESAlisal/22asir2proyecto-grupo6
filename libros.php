@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Libros</title>
-	<link rel="stylesheet" media="screen" href="stylelibros.css" >
+	<link rel="stylesheet" media="screen" href="css/stylelibros.css" >
 </head>
 <body>
 	<form class="formulario" method="post" action="libros_guardar.php" name="formulario">

@@ -13,7 +13,7 @@ body{
     place-items: center;
     margin: 0;
     padding: 0 24px;
-    background-image: url(background3.svg);
+    background-image: url(img/background3.svg);
     background-size: cover;
     font-family: "Raleway";
     color: black;
